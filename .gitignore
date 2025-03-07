@@ -1,0 +1,45 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Configuração de IDE
+.vscode/
+.idea/
+*.sublime-project
+
+# Chaves de API e senhas
+.env
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks (se estiver usando)
+.ipynb_checkpoints/
+
+# Arquivos do Python wheel
+*.whl
+
+# Arquivos de instalação
+pip-wheel-metadata/
+
+# Arquivos de pacotes gerados
+*.tar.gz
+*.zip
+
+# Arquivos de configuração de deployment, se houver
+*.env
+
+# Arquivos de banco de dados (se houver)
+*.sqlite3
